@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainMenuController">
+   <children>
+       <VBox fx:id="List" spacing="10" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="53.0" prefWidth="272.0" text="Quarripoly" textFill="#e85f10">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="playBtn" alignment="CENTER" layoutX="131.0" layoutY="175.0" mnemonicParsing="false" onAction="#onActionPlay" text="Play" />
+      <Button fx:id="helpBtn" alignment="CENTER" layoutX="130.0" layoutY="217.0" mnemonicParsing="false" onAction="#onActionHelp" text="Help" />
+      <Button fx:id="aboutBtn" alignment="CENTER" layoutX="126.0" layoutY="264.0" mnemonicParsing="false" onAction="#onActionAbout" text="About" />
+      <Button fx:id="exitBtn" alignment="CENTER" layoutX="133.0" layoutY="311.0" mnemonicParsing="false" onAction="#onActionExit" text="Exit" />
+   </children>   
+    
+</AnchorPane>
